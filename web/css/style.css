@@ -8,7 +8,7 @@ line-height: 30px; width: 140px; text-align: center;}
 #skip a:focus {top: 0;}
 /* 레이아웃 */
 #wrap {width: 100%;}
-#header {width: 100%; height: 325px; background: #111;}
+#header {width: 100%; height: 325px; background: url(../img/header_bg.jpg) center top repeat-x;} /* backgroud 에서 사용할 수 있는 속성*/
 #contents {width: 100%; height: 800px; background: #222;}
 #footer {width: 100%; height: 200px; background: #333;}
 
@@ -19,4 +19,11 @@ line-height: 30px; width: 140px; text-align: center;}
 #cont_cont {width: 100%; height: 200px; background: #666;}
 
 /* 컨테이너 */
-.container {width: 900%; margin: 0 auto; height: inherit; background-color: rgba(255,255,255,0.3);} /*inherit 상속*/
+.container {width: 900%; margin: 0 auto; height: inherit;} /*background-color: rgba(255,255,255,0.3);} inherit 상속*/
+
+
+/* 헤더 */
+.header {}
+.header .header-menu {text-align: right;}
+.header .header-menu a {color: #fff; padding: 10px 0px 10px 13px; display: inline-block;}
+.header .header-menu a:hover {color: #666;}
